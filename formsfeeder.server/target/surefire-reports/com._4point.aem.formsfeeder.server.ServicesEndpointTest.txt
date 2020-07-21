@@ -1,0 +1,200 @@
+-------------------------------------------------------------------------------
+Test set: com._4point.aem.formsfeeder.server.ServicesEndpointTest
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 0, Errors: 28, Skipped: 0, Time elapsed: 61.807 s <<< FAILURE! - in com._4point.aem.formsfeeder.server.ServicesEndpointTest
+testInvokeExamplePlugin{PdfScenario}[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokeExamplePlugin{PdfScenario}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsOneBodyParamXdpParam  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_BadRequestExceptionFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokeGetNoParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokeGetNoParams_BadPath  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokeGetManyParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_OtherFeedConsumerExceptionFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_ReturnPdfFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokeGetOneParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostManyQueryParamsManyFormParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsOneFormParam  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsEmptyBodyParamOctetStream  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_UncheckedExceptionFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_ReturnXmlFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_CallAnotherPlugin  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoParams_BadPath  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_InternalServerExceptionFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsOneBodyParamText  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostManyQueryParamsOneBodyParam  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_ReturnManyOutputsFromPlugin  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostManyQueryParamsOneFormParam  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsComplexParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostOneQueryParamOneBodyParam  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsManyFormParams  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePostNoQueryParamsOneBodyParamText_BadContentDisposition  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_ReturnConfigValueFromPlugin{String}[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
+testInvokePost_ReturnConfigValueFromPlugin{String}[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+       <config xmlns="http://www.xfa.org/schema/xci/1.0/"
+              xmlns:xfa="http://www.xfa.org/schema/xci/1.0/">
+              <present> <!-- [0..n] -->
+                     <destination>pdf</destination> <!-- pdf|ps|pcl -->
+                     <pdf> <!-- [0..n] -->
+                           <fontInfo>
+                                  <alwaysEmbed>Arial</alwaysEmbed>
+                                  <alwaysEmbed>Arial Black</alwaysEmbed>
+                                  <alwaysEmbed>Arial Narrow</alwaysEmbed>
+                                  <alwaysEmbed>ArialRoundedMTBold</alwaysEmbed>
+                                  <alwaysEmbed>ArialUnicodeMS</alwaysEmbed>
+                                  <alwaysEmbed>Courier New</alwaysEmbed>
+                                  <alwaysEmbed>Garamond</alwaysEmbed>
+                                  <alwaysEmbed>Helvetica</alwaysEmbed>
+                                  <alwaysEmbed>Myriad Pro</alwaysEmbed>
+                                  <alwaysEmbed>SabonMT</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansITC TT</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansOSITC TT</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansSCITC TT</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansSemiITC TT</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansSemiOSITC TT Regular</alwaysEmbed>
+                                  <alwaysEmbed>StoneSansSemiSCITC TT Regular</alwaysEmbed>
+                                  <alwaysEmbed>Symbol Regular</alwaysEmbed>
+                                  <alwaysEmbed>Times New Roman</alwaysEmbed>
+                                  <alwaysEmbed>Verdana</alwaysEmbed>
+                                  <alwaysEmbed>Wingdings</alwaysEmbed>
+                                  <alwaysEmbed>Wingdings 2</alwaysEmbed>
+                                  <alwaysEmbed>Wingdings 3</alwaysEmbed>
+                                  <alwaysEmbed>FS Elliot Pro</alwaysEmbed>
+                                  <alwaysEmbed>FS Elliot Pro Light</alwaysEmbed>
+                                  <alwaysEmbed>Segoe Script</alwaysEmbed>
+                                  <alwaysEmbed>OCRAExtended</alwaysEmbed>
+                           </fontInfo>
+                     </pdf>
+              </present>
+       </config>
+</xdp:xdp>
+

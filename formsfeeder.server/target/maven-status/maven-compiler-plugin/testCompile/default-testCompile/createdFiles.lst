@@ -1,0 +1,16 @@
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$TraceTests.class
+com\_4point\aem\formsfeeder\server\ServicesEndpointTest.class
+com\_4point\aem\formsfeeder\server\pf4j\FeedConsumersTest$MockNamedFeedConsumer.class
+com\_4point\aem\formsfeeder\server\ApplicationTests.class
+com\_4point\aem\formsfeeder\server\ServicesEndpointTest$PdfScenario.class
+com\_4point\aem\formsfeeder\server\pf4j\FeedConsumersTest.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$InfoTests.class
+META-INF\extensions.idx
+com\_4point\aem\formsfeeder\server\support\CorrelationIdTest.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$DebugTests.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$MockLogger.class
+com\_4point\aem\formsfeeder\server\pf4j\FeedConsumersTest$MockSpringPluginManager.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$MockLogger$Level.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$ErrorTests.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactoryTest$WarnTests.class

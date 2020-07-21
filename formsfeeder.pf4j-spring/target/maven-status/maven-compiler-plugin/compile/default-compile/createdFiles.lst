@@ -1,0 +1,8 @@
+com\_4point\aem\formsfeeder\pf4j\SpringExtensionFactory.class
+com\_4point\aem\formsfeeder\pf4j\spring\EnvironmentConsumer.class
+com\_4point\aem\formsfeeder\pf4j\ExtensionsInjector.class
+com\_4point\aem\formsfeeder\pf4j\SingletonSpringExtensionFactory.class
+com\_4point\aem\formsfeeder\pf4j\SpringPlugin.class
+META-INF\extensions.idx
+com\_4point\aem\formsfeeder\pf4j\spring\ApplicationContextConsumer.class
+com\_4point\aem\formsfeeder\pf4j\SpringPluginManager.class

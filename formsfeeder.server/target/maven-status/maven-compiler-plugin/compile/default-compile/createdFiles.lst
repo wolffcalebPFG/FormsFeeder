@@ -1,0 +1,10 @@
+com\_4point\aem\formsfeeder\server\pf4j\FeedConsumers.class
+com\_4point\aem\formsfeeder\server\Application.class
+com\_4point\aem\formsfeeder\server\ServicesEndpoint.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactory.class
+com\_4point\aem\formsfeeder\server\support\FfLoggerFactory$FsLogger.class
+com\_4point\aem\formsfeeder\server\support\DataSourceListJaxRsUtils.class
+com\_4point\aem\formsfeeder\server\JerseyConfig.class
+com\_4point\aem\formsfeeder\server\support\CorrelationId.class
+META-INF\extensions.idx
+com\_4point\aem\formsfeeder\server\ServicesEndpoint$ContentDispositionHeaderException.class

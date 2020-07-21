@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com._4point.aem.formsfeeder.server.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.077 s <<< FAILURE! - in com._4point.aem.formsfeeder.server.ApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feedConsumers': Unsatisfied dependency expressed through field 'springPluginManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springPluginManager': Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.NoClassDefFoundError: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+Caused by: java.lang.ClassNotFoundException: com._4point.aem.fluentforms.api.generate.GeneratePDFService
+
